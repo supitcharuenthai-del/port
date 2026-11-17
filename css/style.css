@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(30, 32, 36);
+}
+.gradient-text{
+    font-family: "Redaction 50", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+
+    font-size: 72px;
+    background: linear-gradient(
+        90deg,
+        #ffadad,
+        #ffd6a5,
+        #fdf6b6,
+        #caffbf,
+        #9bf6ff,
+        #a0c4ff,
+        #bdb2ff,
+        #ffc8ff
+     );
+  background-size: 200% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+@keyframes shine {
+ to {
+   background-position: 200% center;
+ }
+}
+
+.center-img{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.buttom{
+    margin: 0 auto;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    font-family: "Redaction 50", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+     font-size: 30px;
+    background: linear-gradient(
+        90deg,
+        #ffadad,
+        #ffd6a5,
+        #fdf6b6,
+        #caffbf,
+        #9bf6ff,
+        #a0c4ff,
+        #bdb2ff,
+        #ffc8ff
+     );
+  background-size: 200% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+@keyframes shine {
+ to {
+   background-position: 200% center;
+ }
+}
